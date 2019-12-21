@@ -2,7 +2,7 @@ header {
     margin: 0;
     Padding: 0;
     background: #ffffff;
-    border-color: #cccccc;
+    border-bottom: 1px solid #cccccc;
     font-family: Arial, Helvetica, sans-serif;
 }
 

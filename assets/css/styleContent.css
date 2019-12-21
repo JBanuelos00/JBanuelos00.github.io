@@ -32,7 +32,7 @@ hr {
     top: 25px;
     width: 50%;
     background: #ffffff;
-    border-color: #dddddd;
+    border: 1px solid #dddddd;
     padding: 20px;
     font-size: 18px;
     line-height: 1.6;
@@ -119,6 +119,10 @@ h6 {
     background-image: url("../images/N7-logo.png");
     border: 1px solid #444;
     clear: left;
+}
+
+textarea {
+    margin: 10px 0;
 }
 
 .stickyFooter {

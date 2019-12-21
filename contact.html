@@ -16,55 +16,39 @@
 <body>
 
     <!-- All non heading fonts use font family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; text color: #777777;  -->
-    <div class="myHeader">
+    <div class="contentWrapper">
         <header>
 
-            <div id="yourName">
+            <div class="yourName">
                 <!-- Main heading in a teal (#4aaaa5) box with white text color. font-family: 'Georgia', Times, 'Times New Roman', serif; background color: #ffffff; border color: #cccccc -->
-                <h1 class="myHeadings">Your Name</h1>
-
-            </div>
-
-            <div class="topNav">
-
-                <a class="active" href="#about">About</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#contact">Contact</a>
+                <h1 class="mainHeading">Javier Banuelos</h1>
 
             </div>
 
         </header>
-    </div>
 
-    <div class="mainContent">
-        <!-- text color: #4aaaa5; font-family: 'Georgia', Times, 'Times New Roman', serif; background color: #ffffff; border color: #cccccc -->
-        <h2 class="myHeadings">About Me</h2>
+        <!-- Main content background color: #ffffff; border color: #dddddd; width: 960px; -->
+        <div class="mainContent">
+            <!-- text color: #4aaaa5; font-family: 'Georgia', Times, 'Times New Roman', serif; background color: #ffffff; border color: #cccccc -->
+            <h2 class="myHeadings">Contact</h2>
 
-        <hr>
+            <hr>
+            <form>
+                Name:<br>
+                <input type="text" name="Name"><br>
+                Email:<br>
+                <input type="text" name="email"><br>
+                <textarea name="message" style="width:100%; height:200px;">
+                    </textarea><br>
+                <input type="submit" value="Submit">
 
-        <form>
+              </form>
 
-            Name:<br>
-            <input type="text" name="name" value="Your Name"><br>
-            Email:<br>
-            <input type="text" name="lastname" value="Email"><br>
-            Message:<br>
-            <input type="text" name="lastname" value="Message"><br><br>
-            <input type="submit" value="Submit">
-
-        </form>
-
-    </div>
-
-    <div class="stickyFooter">
-        <!-- Footer background color: `#666666` -->
-        <p>Footer</p>
+        </div>
 
     </div>
 
-
-
-
+    <footer class="stickyFooter">Copyright</footer>
 </body>
 
 
