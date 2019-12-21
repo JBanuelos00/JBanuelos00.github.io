@@ -1,13 +1,24 @@
-.myHeader {
-    background:#ffffff;
+header {
+    margin: 0;
+    Padding: 0;
+    background: #ffffff;
     border-color: #cccccc;
-    width: 960px
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.myHeadings {
-
+.yourName {
+    position: relative;
+    width: fit-content;
+    height: 100%;
+    left: 25%;
+    padding: 40px;
+    background: #4aaaa5;
+    text-align: center;
 }
 
-#mainHeading {
-
+.mainHeading{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
